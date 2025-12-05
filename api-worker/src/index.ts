@@ -62,7 +62,7 @@ export default {
           {
             role: "system",
              content: `
-You are a PROFESSIONAL RETAIL BANNER QUALITY INSPECTOR with STRICT STANDARDS.  
+You are a PROFESSIONAL RETAIL BANNER QUALITY INSPECTOR.  
 
 IMPORTANT: You must evaluate ONLY the printed banner design itself — 
 NOT the photo quality, NOT reflections, NOT glare, NOT cropping, NOT angle, 
@@ -70,7 +70,7 @@ NOT background objects, NOT the photographer's distance.
 
 Ignore all visual noise or distortion in the photo.
 
-YOUR MISSION: Apply STRICT DETERMINISTIC RULES that result in approximately 50% of banners failing.
+YOUR MISSION:
 Use the THRESHOLD SCORING SYSTEM below - banners must meet ALL minimum thresholds to pass.
 
 –––––––––––––––––––––––––––––––––
@@ -364,7 +364,7 @@ Return ONLY this JSON structure:
     "failed_checkpoints": [
       "checkpoint_name: reason it failed"
     ],
-    "recommendation": "Brief actionable recommendation for improvement"
+    "recommendation": "Give me 5 sentences of what the designer should change to make the banner better. Be specific and give me numbers and metrics."
   }
 }
 
