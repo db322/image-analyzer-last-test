@@ -75,7 +75,7 @@ const res = await axios.post(
     <div className="min-h-screen flex flex-col justify-between bg-gray-900 text-gray-100">
      
       <div className="container mx-auto px-4 py-8">
-        <h1 className="text-3xl  font-bold text-center mb-8">Sign Intelligence Analyzer  
+        <h1 className="text-3xl  font-bold text-center mb-8">Sign Intelligences Analyzing Tool  
      
     </h1>
         
